@@ -36,11 +36,8 @@ postprocess:
   input_csv: "./Step1_raw_results.csv"
   output_csv: "./Step2_processed_results.csv"
 
-  # 简历：二选一
-  resume_path: ""   # txt file of resume
-  # resume_text: ""                    
+  resume_path: ""   # txt file of resume                
 
-  # 控制项
   max_rows: 0          # 0 = process all rows. or cbange to a positive integer
   sleep_seconds: 0.05   # want to slow down processing?
   threads: 10
