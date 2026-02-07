@@ -21,7 +21,7 @@ stop_old_posted:
   days_threshold: 0
 
 blacklist:
-- Insilicom
+- Amazon
 
 search:
   easy_apply_only: false   # true = only Easy Apply; false = all jobs
