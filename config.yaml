@@ -1,0 +1,53 @@
+username: 1234567@xx.com
+password: llllll
+
+positions:
+- Deep Learning Engineer
+- Machine Learning Engineer
+
+locations:
+- New York City
+- California
+- Remote
+
+output_filename: 
+- ./Step1_raw_results.csv
+
+date_posted_days: 7
+
+stop_old_posted:
+  enabled: true
+  consecutive_limit: 10
+  days_threshold: 0
+
+blacklist:
+- Insilicom
+
+search:
+  easy_apply_only: false   # true = only Easy Apply; false = all jobs
+
+stop_empty_pages:
+  enabled: true
+  consecutive_limit: 3   
+
+###############################################################################################
+postprocess:
+  trace_back_days: 1
+  input_csv: "./Step1_raw_results.csv"
+  output_csv: "./Step2_processed_results.csv"
+
+  # 简历：二选一
+  resume_path: ""   # txt file of resume
+  # resume_text: ""                    
+
+  # 控制项
+  max_rows: 0          # 0 = process all rows. or cbange to a positive integer
+  sleep_seconds: 0.05   # want to slow down processing?
+  threads: 10
+
+qwen:
+  base_url: "https://dashscope.aliyuncs.com/compatible-mode/v1"
+  api_key: ""
+  model: "qwen3-max-2026-01-23"
+  timeout_seconds: 60
+
