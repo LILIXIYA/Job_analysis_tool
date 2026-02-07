@@ -78,7 +78,8 @@ However, new users may receive free credits for certain models after registratio
 
 A PDF and some relevant figures showing the jobs that you qualify for and actually like.
 
-![019c0bf5b5a453285f666d44f289b0e5](https://github.com/user-attachments/assets/6b88704b-87df-4ef1-9b52-97e183d3ea5d)
+![2e291a1a3ccf0a691569f0cdf52db703](https://github.com/user-attachments/assets/715c7a73-59eb-4560-9ee5-5a22d20f6c6e)
+
 
 ---
 
