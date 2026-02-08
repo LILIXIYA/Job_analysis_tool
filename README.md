@@ -31,7 +31,8 @@ This tool provides **clear explanations**, and the selection is done in **two st
 
 ## 🏃 How to run
 
-All dependencies are specified in `environment.yml`.
+All dependencies are specified in `requirementx.txt`.
+`pip install -r requirements.txt`
 
 ### Key scripts
 
