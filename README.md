@@ -31,7 +31,7 @@ This tool provides **clear explanations**, and the selection is done in **two st
 
 ## 🏃 How to run
 
-All dependencies are specified in `requirementx.txt`.
+All dependencies are specified in `requirements.txt`.
 
 `pip install -r requirements.txt`
 
